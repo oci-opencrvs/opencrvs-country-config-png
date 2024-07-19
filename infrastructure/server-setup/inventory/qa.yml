@@ -25,3 +25,8 @@ docker-manager-first:
 
 # QA and staging servers are not configured to use workers.
 docker-workers: {}
+
+jump-host:
+  hosts:
+    opencrvs-countryconfig-bastion-1: # @todo set this to be the hostname of your jump server
+      ansible_host: '152.69.203.79'
