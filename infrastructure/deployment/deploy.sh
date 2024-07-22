@@ -371,6 +371,8 @@ configured_rsync -rlD /tmp/docker-compose.yml /tmp/docker-compose.deps.yml $SSH_
 
 echo "Logging to Dockerhub:  $DOCKERHUB_ACCOUNT"
 configured_ssh "echo hello"
+echo "test successfull"
+
 
 configured_ssh "docker login $DOCKERHUB_ACCOUNT -u $DOCKER_USERNAME -p $DOCKER_TOKEN"
 
