@@ -179,10 +179,12 @@ get_environment_variables() {
     fi
 
     # Exclude variables that start with specified patterns
-    if [[ ! $name =~ ^(npm_|RUNNER_TOOL_CACHE|GITHUB_) ]]; then
+    if [[ ! $name =~ ^(npm_|RUNNER_TOOL_CACHE|GITHUB_|SMTP_PASSWORD) ]]; then
       # Safely escape and quote the value
       printf -v escaped_value "%q" "$value"
       env_vars+="${name}=\"${escaped_value}\" "
+    elif [[  $name =~ ^(SMTP_PASSWORD) ]]; then
+      env_vars+="${name}=\"$value\" "
     fi
   done < <(printenv)
 
@@ -190,7 +192,7 @@ get_environment_variables() {
 }
 
 configured_ssh() {
-  ssh $SSH_USER@$SSH_HOST -p $SSH_PORT $SSH_ARGS "export $(get_environment_variables); export OCI_PRIVKEY=${OCI_PRIVKEY}; $@"
+  ssh $SSH_USER@$SSH_HOST -p $SSH_PORT $SSH_ARGS "export $(get_environment_variables); export OCI_PRIVKEY=${OCI_PRIVKEY}; export SMTP_PASSWORD=${SMTP_PASSWORD}; $@"
 }
 
 # Rotate MongoDB credentials
