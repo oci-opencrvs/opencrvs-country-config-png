@@ -70,7 +70,6 @@ COMPOSE_FILES_DOWNLOADED_FROM_CORE="/tmp/docker-compose.deps.yml /tmp/docker-com
 ENVIRONMENT_COMPOSE="$INFRASTRUCTURE_DIRECTORY/docker-compose.$ENV-deploy.yml"
 COMPOSE_FILES_USED="$COMPOSE_FILES_DOWNLOADED_FROM_CORE $INFRASTRUCTURE_DIRECTORY/docker-compose.deploy.yml $ENVIRONMENT_COMPOSE"
 
-echo $OCI_PRIVKEY_FILE
 
 # Read environment variable file for the environment
 # .env.qa
