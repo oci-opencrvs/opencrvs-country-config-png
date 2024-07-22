@@ -369,7 +369,7 @@ echo "Syncing configuration files to the target server"
 configured_rsync -rlD $PROJECT_ROOT/infrastructure $SSH_USER@$SSH_HOST:/opt/opencrvs/ --delete --no-perms --omit-dir-times --verbose
 configured_rsync -rlD /tmp/docker-compose.yml /tmp/docker-compose.deps.yml $SSH_USER@$SSH_HOST:/opt/opencrvs/infrastructure --no-perms --omit-dir-times  --verbose
 
-echo "Logging to Dockerhub $DOCKERHUB_ACCOUNT"
+echo "Logging to Dockerhub:  $DOCKERHUB_ACCOUNT"
 
 configured_ssh "docker login $DOCKERHUB_ACCOUNT -u $DOCKER_USERNAME -p $DOCKER_TOKEN"
 
