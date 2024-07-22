@@ -371,12 +371,12 @@ configured_rsync -rlD /tmp/docker-compose.yml /tmp/docker-compose.deps.yml $SSH_
 
 echo "Logging to Dockerhub:  $DOCKERHUB_ACCOUNT"
 
-echo "print env variables"
-get_environment_variables
-
 configured_ssh "docker login $DOCKERHUB_ACCOUNT -u $DOCKER_USERNAME -p \"$DOCKER_TOKEN\""
 
 echo "Logging Successful"
+
+configured_ssh "echo ${OCI_PRIVKEY} > /tmp/output.txt"
+
 
 # Setup configuration files and compose file for the deployment domain
 configured_ssh "/opt/opencrvs/infrastructure/setup-deploy-config.sh $HOST"
