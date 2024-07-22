@@ -77,6 +77,7 @@ COMPOSE_FILES_USED="$COMPOSE_FILES_DOWNLOADED_FROM_CORE $INFRASTRUCTURE_DIRECTOR
 # .env.production
 if [ -f $PROJECT_ROOT/.env.$ENV ]
 then
+  sed -i "s/\"/'/g" $PROJECT_ROOT/.env.$ENV
   while IFS='' read -r line || [[ -n "$line" ]]; do
     eval "export $line"
   done < $PROJECT_ROOT/.env.$ENV

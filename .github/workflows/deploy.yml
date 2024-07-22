@@ -113,7 +113,7 @@ jobs:
               to_entries |
               map(
                 select(.value | test("\n") | not) |
-                "\(.key)=\'\(.value)\'"
+                "\(.key)=\"\(.value)\""
               ) |
               .[]' <<< "$SECRETS_JSON_WITH_NEWLINES"
           )
@@ -129,7 +129,7 @@ jobs:
               to_entries |
               map(
                 select(.value | test("\n") | not) |
-                "\(.key)=\'\(.value)\'"
+                "\(.key)=\"\(.value)\""
               ) |
               .[]' <<< "$VARS_JSON_WITH_NEWLINES"
           )
