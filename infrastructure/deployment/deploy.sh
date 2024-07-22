@@ -370,6 +370,7 @@ configured_rsync -rlD $PROJECT_ROOT/infrastructure $SSH_USER@$SSH_HOST:/opt/open
 configured_rsync -rlD /tmp/docker-compose.yml /tmp/docker-compose.deps.yml $SSH_USER@$SSH_HOST:/opt/opencrvs/infrastructure --no-perms --omit-dir-times  --verbose
 
 echo "Logging to Dockerhub:  $DOCKERHUB_ACCOUNT"
+configured_ssh "echo hello"
 
 configured_ssh "docker login $DOCKERHUB_ACCOUNT -u $DOCKER_USERNAME -p $DOCKER_TOKEN"
 
