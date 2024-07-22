@@ -189,7 +189,7 @@ get_environment_variables() {
 }
 
 configured_ssh() {
-  ssh $SSH_USER@$SSH_HOST -p $SSH_PORT $SSH_ARGS "export $(get_environment_variables); $@"
+  ssh $SSH_USER@$SSH_HOST -p $SSH_PORT $SSH_ARGS "export $(get_environment_variables); export OCI_PRIVKEY=${OCI_PRIVKEY}; $@"
 }
 
 # Rotate MongoDB credentials
@@ -374,8 +374,6 @@ echo "Logging to Dockerhub:  $DOCKERHUB_ACCOUNT"
 configured_ssh "docker login $DOCKERHUB_ACCOUNT -u $DOCKER_USERNAME -p \"$DOCKER_TOKEN\""
 
 echo "Logging Successful"
-
-configured_ssh "echo ${OCI_PRIVKEY} > /tmp/output.txt"
 
 
 # Setup configuration files and compose file for the deployment domain
