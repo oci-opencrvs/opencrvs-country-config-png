@@ -189,7 +189,7 @@ get_environment_variables() {
 }
 
 configured_ssh() {
-  ssh $SSH_USER@$SSH_HOST -p $SSH_PORT $SSH_ARGS "export $(get_environment_variables); export OCI_PRIVKEY=${OCI_PRIVKEY}; export SMTP_PASSWORD=${SMTP_PASSWORD}; $@"
+  ssh $SSH_USER@$SSH_HOST -p $SSH_PORT $SSH_ARGS "export $(get_environment_variables); export OCI_PRIVKEY=${OCI_PRIVKEY}; export SMTP_PASSWORD="${SMTP_PASSWORD}"; $@"
 }
 
 # Rotate MongoDB credentials
