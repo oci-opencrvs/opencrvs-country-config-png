@@ -374,7 +374,7 @@ configured_ssh "echo hello"
 echo "test successfull"
 
 
-configured_ssh "docker login $DOCKERHUB_ACCOUNT -u $DOCKER_USERNAME -p "$DOCKER_TOKEN""
+configured_ssh "docker login $DOCKERHUB_ACCOUNT -u $DOCKER_USERNAME -p \"$DOCKER_TOKEN\""
 
 echo "Logging Successful"
 
