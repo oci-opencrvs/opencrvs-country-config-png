@@ -64,6 +64,9 @@ export const sendEmail = async (params: {
     auth: {
       user: SMTP_USERNAME,
       pass: SMTP_PASSWORD
+    },
+    tls: {
+      ciphers: 'SSLv3'
     }
   })
   const mailOptions = params.bcc
