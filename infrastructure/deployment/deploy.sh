@@ -373,6 +373,8 @@ echo "Logging to Dockerhub:  $DOCKERHUB_ACCOUNT"
 
 configured_ssh "docker login $DOCKERHUB_ACCOUNT -u $DOCKER_USERNAME -p $DOCKER_TOKEN"
 
+echo "Logging Successful"
+
 # Setup configuration files and compose file for the deployment domain
 configured_ssh "/opt/opencrvs/infrastructure/setup-deploy-config.sh $HOST"
 
