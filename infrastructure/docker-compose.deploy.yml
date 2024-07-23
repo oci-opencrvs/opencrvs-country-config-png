@@ -33,7 +33,7 @@ services:
       - --log.level=WARNING
       - --certificatesresolvers.certResolver.acme.email=riku@opencrvs.org
       - --certificatesresolvers.certResolver.acme.storage=acme.json
-      - --certificatesresolvers.certResolver.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory
+      - --certificatesresolvers.certResolver.acme.caserver=https://acme-v02.api.letsencrypt.org/directory
       - --certificatesresolvers.certResolver.acme.dnschallenge=true
       - --certificatesresolvers.certResolver.acme.dnschallenge.provider=oraclecloud
       - --entrypoints.web.http.redirections.entryPoint.to=websecure
@@ -45,7 +45,7 @@ services:
       - --accesslog.format=json
       - --ping=true
     deploy:
-      replicas: 0
+      replicas: 1
       labels:
         - 'traefik.http.services.traefik.loadbalancer.server.port=80'
         - 'traefik.http.middlewares.gzip-compression.compress=true'
