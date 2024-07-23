@@ -74,7 +74,7 @@ services:
       # - SMTP_SECURE=${SMTP_SECURE}
       - SMTP_SECURE=false
     deploy:
-      replicas: 1
+      replicas: 0
     networks:
       - overlay_net
 
