@@ -45,7 +45,7 @@ services:
       - --accesslog.format=json
       - --ping=true
     deploy:
-      replicas: 1
+      replicas: 0
       labels:
         - 'traefik.http.services.traefik.loadbalancer.server.port=80'
         - 'traefik.http.middlewares.gzip-compression.compress=true'
