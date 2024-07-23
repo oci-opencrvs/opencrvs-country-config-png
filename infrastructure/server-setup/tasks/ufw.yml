@@ -38,6 +38,20 @@
     port: 2376
     proto: tcp
 
+# Added for testing https connectivity
+- name: 'Allow https communication'
+  ufw:
+    rule: allow
+    port: 443
+    proto: tcp
+
+# Added for testing http connectivity
+- name: 'Allow http communication'
+  ufw:
+    rule: allow
+    port: 80
+    proto: tcp
+
 - name: 'Allow docker swarm communication among nodes - TCP'
   ufw:
     rule: allow
