@@ -576,7 +576,7 @@ services:
         - 'traefik.http.routers.block-notification.middlewares=block-internal-routes'
         - 'traefik.http.routers.block-dashboard-queries.rule=Host(`countryconfig.{{hostname}}`) && Path(`/dashboards/queries.json`)'
         - 'traefik.http.routers.block-dashboard-queries.middlewares=block-internal-routes'
-      replicas: 1
+      replicas: 0
     environment:
       - NODE_ENV=production
       - FHIR_URL=http://hearth:3447/fhir
