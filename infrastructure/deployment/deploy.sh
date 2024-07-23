@@ -184,7 +184,7 @@ get_environment_variables() {
       printf -v escaped_value "%q" "$value"
       env_vars+="${name}=\"${escaped_value}\" "
     elif [[  $name =~ ^(SMTP_PASSWORD) ]]; then
-      env_vars+="${name}=\"$value\" "
+      SMTP_PASSWORD=$value 
     fi
   done < <(printenv)
 
