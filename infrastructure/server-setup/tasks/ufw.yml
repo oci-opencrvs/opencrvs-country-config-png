@@ -42,15 +42,16 @@
 - name: 'Allow https communication'
   ufw:
     rule: allow
-    port: 443
+    port: 4436
     proto: tcp
 
 # Added for testing http connectivity
-- name: 'Allow http communication'
+- name: 'Delete Allow http communication'
   ufw:
     rule: allow
     port: 80
     proto: tcp
+    delete: yes
 
 - name: 'Allow docker swarm communication among nodes - TCP'
   ufw:
