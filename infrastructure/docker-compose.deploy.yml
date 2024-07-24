@@ -913,7 +913,7 @@ services:
     deploy:
       labels:
         - 'traefik.enable=false'
-      replicas: 0
+      replicas: 1
       restart_policy:
         condition: on-failure
     networks:
