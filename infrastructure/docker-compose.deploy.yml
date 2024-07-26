@@ -206,13 +206,7 @@ services:
     deploy:
       replicas: 1
       labels:
-        - 'traefik.enable=true'
-        - 'traefik.http.routers.mongo1.rule=Host(`mongodb.{{hostname}}`)'
-        - 'traefik.http.services.mongo1.loadbalancer.server.port=27017'
-        - 'traefik.http.routers.mongo1.tls=true'
-        - 'traefik.http.routers.mongo1.tls.certresolver=certResolver'
-        - 'traefik.http.routers.mongo1.entrypoints=web,websecure'
-        - 'traefik.docker.network=opencrvs_overlay_net'
+        - 'traefik.enable=false'
       placement:
         constraints:
           - node.labels.data1 == true
