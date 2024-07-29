@@ -38,6 +38,7 @@
 
 - name: 'Log into DockerHub'
   docker_login:
+    registry: '{{dockerhub_account}}'
     username: '{{dockerhub_username}}'
     password: '{{dockerhub_password}}'
 
