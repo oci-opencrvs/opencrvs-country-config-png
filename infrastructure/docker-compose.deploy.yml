@@ -590,8 +590,7 @@ services:
       - LOGIN_URL=https://login.{{hostname}}
       # This needs to be the internal swarm url
       # as containers cannot connect to the web
-      # - GATEWAY_URL=http://gateway:7070
-      - GATEWAY_URL=https://gateway.{{hostname}}
+      - GATEWAY_URL=http://gateway:7070
       - CLIENT_APP_URL=https://register.{{hostname}}
       - NOTIFICATION_TRANSPORT=${NOTIFICATION_TRANSPORT}
       - ALERT_EMAIL=${ALERT_EMAIL:-}
