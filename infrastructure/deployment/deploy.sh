@@ -292,7 +292,7 @@ docker_stack_deploy() {
 
   echo "Updating docker swarm stack with new compose files"
 
-  configured_ssh 'cd /opt/opencrvs && \
+  configured_ssh 'export SMTP_PASSWORD=$(echo "$SMTP_PASSWORD" | base64 --decode);cd /opt/opencrvs && \
     docker stack deploy --prune -c '$(split_and_join " " " -c " "$(to_remote_paths $COMPOSE_FILES_USED)")' --with-registry-auth opencrvs'
 }
 
