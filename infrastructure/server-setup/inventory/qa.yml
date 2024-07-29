@@ -11,16 +11,16 @@ all:
     users:
       # @todo this is where you define which development team members have access to the server.
       # If you need to remove access from someone, do not remove them from this list, but instead set their state: absent
-      - name: my-user
+      - name: ddevadat
         ssh_keys:
-          - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABg...Z/rhU= user@example.com
+          - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCr6/DNzYrV+FXzJItkGMhq4lwblVe4noOB6AVdSYmTkifxS2XKt94cWBGNg1PqTi/RNwlTxAWsdyUsOsfi6MyaWYdYOXp9q5yEAwg3eSrOT+qJ4QL0UwA32oZMI8+W3FrTPZ5jaV6vPvykcgk5K7eai/2SzMawiKsJfMjEDTdVsDbClQBNZXtFVimmbPwvK+4dwhlEymTQXzbd/PMMgIOqJlBeCFbug1rIkUgz0PQ6iWLJuVIwh/sZUW4MfXUIxBztuImh90LAtcRNO62Dn4HUx519VgR7lhjIotxdGPggwKeq6WfJ8TOCCBIkJLeyW06AGFsSJVrhrcK+2RiJG1RP ssh-key-2022-02-02
         state: present
         sudoer: true
 
 docker-manager-first:
   hosts:
-    qa: # @todo set this to be the hostname of your target server
-      ansible_host: '55.55.55.55' # @todo set this to be the IP address of your server
+    opencrvs-countryconfig-qa-1: # @todo set this to be the hostname of your target server
+      ansible_host: '10.0.3.41' # @todo set this to be the IP address of your server
       data_label: data1 # for manager machines, this should always be "data1"
 
 # QA and staging servers are not configured to use workers.
