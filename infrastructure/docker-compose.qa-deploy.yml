@@ -4,15 +4,22 @@ services:
   traefik:
     networks:
       - overlay_net
+    environment: 
+      - OCI_COMPARTMENT_OCID=${OCI_COMPARTMENT_OCID}
+      - OCI_PRIVKEY=${OCI_PRIVKEY}
+      - OCI_PUBKEY_FINGERPRINT=${OCI_PUBKEY_FINGERPRINT}
+      - OCI_REGION=${OCI_REGION}
+      - OCI_TENANCY_OCID=${OCI_TENANCY_OCID}
+      - OCI_USER_OCID=${OCI_USER_OCID}
     command:
       # Use HTTP-01 challenge as the web server is publicly available
       # https://doc.traefik.io/traefik/https/acme/#httpchallenge
       # For DNS-01 challenge and manual certificates, check staging and production configurations
-      - --certificatesresolvers.certResolver.acme.email=riku@opencrvs.org
+      - --certificatesresolvers.certResolver.acme.email=deepak.devadathan@oracle.com
       - --certificatesresolvers.certResolver.acme.storage=acme.json
       - --certificatesresolvers.certResolver.acme.caserver=https://acme-v02.api.letsencrypt.org/directory
-      - --certificatesresolvers.certResolver.acme.httpchallenge.entrypoint=web
-      - --certificatesresolvers.certResolver.acme.httpchallenge=true
+      - --certificatesresolvers.certResolver.acme.dnschallenge=true
+      - --certificatesresolvers.certResolver.acme.dnschallenge.provider=oraclecloud
 
       - --entrypoints.web.address=:80
       - --entrypoints.websecure.address=:443
