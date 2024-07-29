@@ -78,6 +78,7 @@ echo $COMPOSE_FILES_USED
 # .env.production
 if [ -f $PROJECT_ROOT/.env.$ENV ]
 then
+  sed -i "s/\"/'/g" $PROJECT_ROOT/.env.$ENV
   while IFS='' read -r line || [[ -n "$line" ]]; do
     eval "export $line"
   done < $PROJECT_ROOT/.env.$ENV
@@ -190,8 +191,9 @@ get_environment_variables() {
 }
 
 configured_ssh() {
-  ssh $SSH_USER@$SSH_HOST -p $SSH_PORT $SSH_ARGS "export $(get_environment_variables); $@"
+  ssh $SSH_USER@$SSH_HOST -p $SSH_PORT $SSH_ARGS "export $(get_environment_variables); export OCI_PRIVKEY=${OCI_PRIVKEY}; $@"
 }
+
 
 # Rotate MongoDB credentials
 # https://unix.stackexchange.com/a/230676
@@ -369,7 +371,7 @@ configured_rsync -rlD /tmp/docker-compose.yml /tmp/docker-compose.deps.yml $SSH_
 
 echo "Logging to Dockerhub"
 
-configured_ssh "docker login -u $DOCKER_USERNAME -p $DOCKER_TOKEN"
+configured_ssh "docker login $DOCKERHUB_ACCOUNT -u $DOCKER_USERNAME -p \"$DOCKER_TOKEN\""
 
 # Setup configuration files and compose file for the deployment domain
 configured_ssh "/opt/opencrvs/infrastructure/setup-deploy-config.sh $HOST"
