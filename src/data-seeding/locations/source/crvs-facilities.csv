@@ -1,18 +1,328 @@
 id,name,partOf,locationType
-2OKicPQMNI,HQ Office,Location/BxrIbNW7f3K,CRVS_OFFICE
-JEhYJ82xRI,Isamba District Office,Location/ntoX1PkiWri,CRVS_OFFICE
-JWMRGwDBXK,Ibombo District Office,Location/oEBf29y8JP8,CRVS_OFFICE
-HKASqwkASD,Itambo District Office,Location/QTtxiWj8ONP,CRVS_OFFICE
-eaBXhNiLMp,Ezhi District Office,Location/ydyJb1RAy4U,CRVS_OFFICE
-okQp4uKCz0,Ilanga District Office,Location/HPGiE9Jjh2r,CRVS_OFFICE
-R5n2eHaSpB,Irundu District Office,Location/SvFNQpplnch,CRVS_OFFICE
-GzanivmNaP,Zobwe District Office,Location/Oapn6R4rt3D,CRVS_OFFICE
-2stAtvOCwl,Afue District Office,Location/nO68NTtcdw2,CRVS_OFFICE
-p9TC08l373,Embe District Office,Location/BxrIbNW7f3K,CRVS_OFFICE
-Hal1YwlBw7,Ienge District Office,Location/NLjvK1QsrN3,CRVS_OFFICE
-OgMqVlKHoN,Funabuli District Office,Location/idR0pJWLqcR,CRVS_OFFICE
-FHTLilSEgD,Pili District Office,Location/FuvOOwvBw0p,CRVS_OFFICE
-jMEPmtRKQ9,Ama District Office,Location/SQT8xjbvWwf,CRVS_OFFICE
-hfFdA2JI3T,Nsali District Office,Location/hywxVKv48Xp,CRVS_OFFICE
-mNCAv7oKj8,Soka District Office,Location/jCJxK8sFH40,CRVS_OFFICE
-H0EaOnzz0a,Chibiya District Office,Location/R22tRIhdm5Y,CRVS_OFFICE
+00E147F8AA,HQ Office,Location/PG0401,CRVS_OFFICE
+007B3C3C19,Ijivitari District Office,Location/PG0601,CRVS_OFFICE
+000A715448,Kainanatu District Office,Location/PG1104,CRVS_OFFICE
+00D18AB656,Lae District Office,Location/PG1205,CRVS_OFFICE
+00A78CC9D9,Kagua/Erave District Office,Location/PG0703,CRVS_OFFICE
+00141398A5,Maprik District Office,Location/PG1403,CRVS_OFFICE
+0098816075,Bogia District Office,Location/PG1301,CRVS_OFFICE
+0092212003,Alotau District Office,Location/PG0501,CRVS_OFFICE
+000A7DFC45,Vanimo/Green River District Office,Location/PG1504,CRVS_OFFICE
+00EC18AB8F,Abau District Office,Location/PG0301,CRVS_OFFICE
+00A695853E,Madang District Office,Location/PG1302,CRVS_OFFICE
+0043755CEC,Kompiam District Office,Location/PG0802,CRVS_OFFICE
+009691804B,Ambunti/Drekikier District Office,Location/PG1401,CRVS_OFFICE
+00FEAB8BEA,Anglimp/South Waghi District Office,Location/PG2201,CRVS_OFFICE
+00F8ABD190,Angoram District Office,Location/PG1402,CRVS_OFFICE
+00D8C33E7C,Middle Ramu District Office,Location/PG1303,CRVS_OFFICE
+00CDD7C36E,Central Bougainville District Office,Location/PG2002,CRVS_OFFICE
+008F8EA219,Abau District Office,Location/PG0301,CRVS_OFFICE
+003D6D33F2,Rai Coast District Office,Location/PG1304,CRVS_OFFICE
+00E3F13264,North Bougainville District Office,Location/PG2001,CRVS_OFFICE
+0003E6ED57,Manus District Office,Location/PG1601,CRVS_OFFICE
+0031466ADE,Koroba/Kopiago District Office,Location/PG2105,CRVS_OFFICE
+003718EEC1,Kikori District Office,Location/PG0202,CRVS_OFFICE
+00A9348C1F,Mul/Baiyer District Office,Location/PG0905,CRVS_OFFICE
+004F355E0B,Rabaul District Office,Location/PG1804,CRVS_OFFICE
+008C045A99,Talasea District Office,Location/PG1902,CRVS_OFFICE
+00CB4F0FCA,Middle Fly District Office,Location/PG0101,CRVS_OFFICE
+004EF92904,Manus District Office,Location/PG1601,CRVS_OFFICE
+00F7E65BA6,Middle Fly District Office,Location/PG0101,CRVS_OFFICE
+005B1BE968,South Bougainville District Office,Location/PG2003,CRVS_OFFICE
+008BB62F61,Vanimo/Green River District Office,Location/PG1504,CRVS_OFFICE
+00F45ED357,Talasea District Office,Location/PG1902,CRVS_OFFICE
+000C12F383,Manus District Office,Location/PG1601,CRVS_OFFICE
+00E54A89CF,Kokopo District Office,Location/PG1802,CRVS_OFFICE
+00A8F414AF,Wewak District Office,Location/PG1404,CRVS_OFFICE
+006620A5F2,Gumine District Office,Location/PG1002,CRVS_OFFICE
+0037E416B2,Bulolo District Office,Location/PG1201,CRVS_OFFICE
+00B3ED8B3E,South Bougainville District Office,Location/PG2003,CRVS_OFFICE
+00A86C9AB7,North Bougainville District Office,Location/PG2001,CRVS_OFFICE
+00E4E38524,Maprik District Office,Location/PG1403,CRVS_OFFICE
+00E6A48E18,Usino Bundi District Office,Location/PG1306,CRVS_OFFICE
+0068FF119F,Wosera Gawi District Office,Location/PG1405,CRVS_OFFICE
+003C4A01FA,Finschafen District Office,Location/PG1202,CRVS_OFFICE
+00315EFC7E,Samarai-Murua District Office,Location/PG0502,CRVS_OFFICE
+0089181F6F,Gazelle District Office,Location/PG1801,CRVS_OFFICE
+005EE54C91,Kerema District Office,Location/PG0201,CRVS_OFFICE
+0043282F71,Pomio District Office,Location/PG1803,CRVS_OFFICE
+0010662278,Chuave District Office,Location/PG1001,CRVS_OFFICE
+00236728E3,Abau District Office,Location/PG0301,CRVS_OFFICE
+00F7713723,Alotau District Office,Location/PG0501,CRVS_OFFICE
+0011E65CAD,South Fly District Office,Location/PG0103,CRVS_OFFICE
+000AE50678,Dei District Office,Location/PG0902,CRVS_OFFICE
+00EE928A0D,Kabwum District Office,Location/PG1204,CRVS_OFFICE
+0091A80F7D,Esa'ala District Office,Location/PG0504,CRVS_OFFICE
+000D208667,Ambunti/Drekikier District Office,Location/PG1401,CRVS_OFFICE
+0016B4FADD,Esa'ala District Office,Location/PG0504,CRVS_OFFICE
+00D5BF92C0,Kokopo District Office,Location/PG1802,CRVS_OFFICE
+00F6F53D2A,Henganofi District Office,Location/PG1103,CRVS_OFFICE
+00352FA9CA,Aitape/Lumi District Office,Location/PG1501,CRVS_OFFICE
+001EB64F17,Kerema District Office,Location/PG0201,CRVS_OFFICE
+00FBAE17E1,Kikori District Office,Location/PG0202,CRVS_OFFICE
+00108E116D,Okapa District Office,Location/PG1107,CRVS_OFFICE
+0045CE80C8,Ialibu/Pangia District Office,Location/PG0701,CRVS_OFFICE
+009D839BD9,Pomio District Office,Location/PG1803,CRVS_OFFICE
+004FFB2EB4,Aitape/Lumi District Office,Location/PG1501,CRVS_OFFICE
+003EC9CAC0,Yangoru Saussia District Office,Location/PG1406,CRVS_OFFICE
+0098597AD4,Chuave District Office,Location/PG1001,CRVS_OFFICE
+00FE4FA0D3,Kagua/Erave District Office,Location/PG0703,CRVS_OFFICE
+00D32B140F,Henganofi District Office,Location/PG1103,CRVS_OFFICE
+00613C01C9,Finschafen District Office,Location/PG1202,CRVS_OFFICE
+008314502F,Kainanatu District Office,Location/PG1104,CRVS_OFFICE
+00E96FD2AD,Goroka District Office,Location/PG1102,CRVS_OFFICE
+00424971A6,Usino Bundi District Office,Location/PG1306,CRVS_OFFICE
+0082EE3896,Kandrian/Gloucester District Office,Location/PG1901,CRVS_OFFICE
+00B11D01DC,Ambunti/Drekikier District Office,Location/PG1401,CRVS_OFFICE
+00645E52D4,Wosera Gawi District Office,Location/PG1405,CRVS_OFFICE
+00CFA1AB30,Kerowagi District Office,Location/PG1004,CRVS_OFFICE
+00E294E31F,Kandrian/Gloucester District Office,Location/PG1901,CRVS_OFFICE
+000E749351,Middle Fly District Office,Location/PG0101,CRVS_OFFICE
+008EF02CA3,Kiriwina-Goodenough District Office,Location/PG0503,CRVS_OFFICE
+00898BBFB9,Goroka District Office,Location/PG1102,CRVS_OFFICE
+0040854BC9,Vanimo/Green River District Office,Location/PG1504,CRVS_OFFICE
+00E9F315C9,Goilala District Office,Location/PG0302,CRVS_OFFICE
+004A029554,Gumine District Office,Location/PG1002,CRVS_OFFICE
+0037BCC7EA,Tari/Pori District Office,Location/PG2108,CRVS_OFFICE
+0063EA27CF,Sohe District Office,Location/PG0602,CRVS_OFFICE
+007FC5A8F6,Kairuku - Hiri District Office,Location/PG0303,CRVS_OFFICE
+004AFACD57,Talasea District Office,Location/PG1902,CRVS_OFFICE
+0025C53E48,Finschafen District Office,Location/PG1202,CRVS_OFFICE
+0073CF5C1F,Alotau District Office,Location/PG0501,CRVS_OFFICE
+00CF74C059,Komo/Magarima District Office,Location/PG2104,CRVS_OFFICE
+00E59CE10F,Bogia District Office,Location/PG1301,CRVS_OFFICE
+00053236C1,Imbonggu District Office,Location/PG0702,CRVS_OFFICE
+006930B4E1,Ialibu/Pangia District Office,Location/PG0701,CRVS_OFFICE
+00A842D120,Kikori District Office,Location/PG0202,CRVS_OFFICE
+00B16F67C6,Imbonggu District Office,Location/PG0702,CRVS_OFFICE
+0059EA29E7,Gazelle District Office,Location/PG1801,CRVS_OFFICE
+000B649EF1,Jimi District Office,Location/PG2204,CRVS_OFFICE
+00E0FBC56D,Middle Ramu District Office,Location/PG1303,CRVS_OFFICE
+0060C0CDC0,Henganofi District Office,Location/PG1103,CRVS_OFFICE
+00F068AB4B,Kagua/Erave District Office,Location/PG0703,CRVS_OFFICE
+0049EE2914,Kainanatu District Office,Location/PG1104,CRVS_OFFICE
+00C1D541F9,Kerema District Office,Location/PG0201,CRVS_OFFICE
+0081D42DA3,Kairuku - Hiri District Office,Location/PG0303,CRVS_OFFICE
+0083A40DB4,Kainanatu District Office,Location/PG1104,CRVS_OFFICE
+00B278AE0D,Kainanatu District Office,Location/PG1104,CRVS_OFFICE
+003D8060AE,Kandep District Office,Location/PG0801,CRVS_OFFICE
+00F7414B95,Kandrian/Gloucester District Office,Location/PG1901,CRVS_OFFICE
+002793C5AF,Kandrian/Gloucester District Office,Location/PG1901,CRVS_OFFICE
+003B8C37FD,Menyamya District Office,Location/PG1207,CRVS_OFFICE
+0098705A4F,Angoram District Office,Location/PG1402,CRVS_OFFICE
+008E1CDB1A,Karimui/Nomane District Office,Location/PG1003,CRVS_OFFICE
+00FD3415D4,Mendi/Munihu District Office,Location/PG0706,CRVS_OFFICE
+00FA91E7E5,Sumkar District Office,Location/PG1305,CRVS_OFFICE
+00DBFAB4CA,Kavieng District Office,Location/PG1701,CRVS_OFFICE
+000C267323,Angoram District Office,Location/PG1402,CRVS_OFFICE
+00EE5D43D0,Kerema District Office,Location/PG0201,CRVS_OFFICE
+00159E1B5C,Kerowagi District Office,Location/PG1004,CRVS_OFFICE
+008C7C6D6B,Ialibu/Pangia District Office,Location/PG0701,CRVS_OFFICE
+0087F47372,Talasea District Office,Location/PG1902,CRVS_OFFICE
+007B9A729B,Sohe District Office,Location/PG0602,CRVS_OFFICE
+000C9FEF1A,Kiriwina-Goodenough District Office,Location/PG0503,CRVS_OFFICE
+00F16C7E11,North Fly District Office,Location/PG0102,CRVS_OFFICE
+00C02A7984,North Fly District Office,Location/PG0102,CRVS_OFFICE
+009F11BE4B,South Fly District Office,Location/PG0103,CRVS_OFFICE
+00516C0C2E,Kairuku - Hiri District Office,Location/PG0303,CRVS_OFFICE
+0061348B22,Sohe District Office,Location/PG0602,CRVS_OFFICE
+0009F34874,Kokopo District Office,Location/PG1802,CRVS_OFFICE
+00BB84A48B,Jimi District Office,Location/PG2204,CRVS_OFFICE
+0077C63CE6,Kabwum District Office,Location/PG1204,CRVS_OFFICE
+000E02423B,Rabaul District Office,Location/PG1804,CRVS_OFFICE
+00E7B812F0,Menyamya District Office,Location/PG1207,CRVS_OFFICE
+002C9CBE46,Komo/Magarima District Office,Location/PG2104,CRVS_OFFICE
+0075E56725,Kompiam District Office,Location/PG0802,CRVS_OFFICE
+00D5FD226B,Namatanai District Office,Location/PG1702,CRVS_OFFICE
+007799CE6C,Kerema District Office,Location/PG0201,CRVS_OFFICE
+00F09B0789,Dei District Office,Location/PG0902,CRVS_OFFICE
+00979B1CA0,Finschafen District Office,Location/PG1202,CRVS_OFFICE
+003808A513,Kandrian/Gloucester District Office,Location/PG1901,CRVS_OFFICE
+004BFF1412,Middle Ramu District Office,Location/PG1303,CRVS_OFFICE
+00F245CBB7,Kagua/Erave District Office,Location/PG0703,CRVS_OFFICE
+00C6C7A1E5,Kundiawa/Gembogl District Office,Location/PG1005,CRVS_OFFICE
+0048A6FA5B,North Bougainville District Office,Location/PG2001,CRVS_OFFICE
+0023C3A54E,Kerowagi District Office,Location/PG1004,CRVS_OFFICE
+000A6B8621,Nawae District Office,Location/PG1208,CRVS_OFFICE
+00856C1753,Lae District Office,Location/PG1205,CRVS_OFFICE
+00087A6E92,Lagaip/Pogera District Office,Location/PG0803,CRVS_OFFICE
+0090BAF78C,Mendi/Munihu District Office,Location/PG0706,CRVS_OFFICE
+0061E3B193,Koroba/Kopiago District Office,Location/PG2105,CRVS_OFFICE
+000C7B987F,Nipa/Kutubu District Office,Location/PG0707,CRVS_OFFICE
+00EFCB14A3,Middle Fly District Office,Location/PG0101,CRVS_OFFICE
+00E01EE72A,Kerema District Office,Location/PG0201,CRVS_OFFICE
+0073B73B22,Obura/Wonenara District Office,Location/PG1106,CRVS_OFFICE
+00B96258B4,Gazelle District Office,Location/PG1801,CRVS_OFFICE
+0091BB22F0,Manus District Office,Location/PG1601,CRVS_OFFICE
+003A5CE3AE,Gazelle District Office,Location/PG1801,CRVS_OFFICE
+00339CEFD0,Manus District Office,Location/PG1601,CRVS_OFFICE
+0020719642,Manus District Office,Location/PG1601,CRVS_OFFICE
+00DF09EC31,Samarai-Murua District Office,Location/PG0502,CRVS_OFFICE
+000104F093,Kavieng District Office,Location/PG1701,CRVS_OFFICE
+0024D9ECDD,Daulo District Office,Location/PG1101,CRVS_OFFICE
+00530FFBAB,Unggai/Benna District Office,Location/PG1108,CRVS_OFFICE
+005A1C65F3,Imbonggu District Office,Location/PG0702,CRVS_OFFICE
+00F3F6D90A,Komo/Magarima District Office,Location/PG2104,CRVS_OFFICE
+0073D53DCA,Mul/Baiyer District Office,Location/PG0905,CRVS_OFFICE
+00C8071B93,Madang District Office,Location/PG1302,CRVS_OFFICE
+000DD56A4A,Nuku District Office,Location/PG1502,CRVS_OFFICE
+002112A912,Lagaip/Pogera District Office,Location/PG0803,CRVS_OFFICE
+004D99E740,Alotau District Office,Location/PG0501,CRVS_OFFICE
+003FF20740,Maprik District Office,Location/PG1403,CRVS_OFFICE
+00D0521FE8,Alotau District Office,Location/PG0501,CRVS_OFFICE
+008DA34AD8,Wabag District Office,Location/PG0804,CRVS_OFFICE
+00BCC60EFF,Angoram District Office,Location/PG1402,CRVS_OFFICE
+000E433778,Nuku District Office,Location/PG1502,CRVS_OFFICE
+00B881175D,Kairuku - Hiri District Office,Location/PG0303,CRVS_OFFICE
+0009DED26F,Pomio District Office,Location/PG1803,CRVS_OFFICE
+00F2619F6D,Mendi/Munihu District Office,Location/PG0706,CRVS_OFFICE
+004687AFA4,Goroka District Office,Location/PG1102,CRVS_OFFICE
+00B32AC2CD,Kundiawa/Gembogl District Office,Location/PG1005,CRVS_OFFICE
+00AA4F73F6,South Fly District Office,Location/PG0103,CRVS_OFFICE
+00608FA122,Huon District Office,Location/PG1203,CRVS_OFFICE
+008AA086C7,Talasea District Office,Location/PG1902,CRVS_OFFICE
+00D18B1160,Nipa/Kutubu District Office,Location/PG0707,CRVS_OFFICE
+00519F331B,Gumine District Office,Location/PG1002,CRVS_OFFICE
+000D063B82,Tambul/Nebilyer District Office,Location/PG0907,CRVS_OFFICE
+00E2C346C7,Mt Hagen District Office,Location/PG0903,CRVS_OFFICE
+001B897C04,Mt Hagen District Office,Location/PG0903,CRVS_OFFICE
+000B5F6633,Lufa District Office,Location/PG1105,CRVS_OFFICE
+0082C733A9,Mul/Baiyer District Office,Location/PG0905,CRVS_OFFICE
+0002D59058,Bulolo District Office,Location/PG1201,CRVS_OFFICE
+00E6484EC1,Kavieng District Office,Location/PG1701,CRVS_OFFICE
+00590128B0,Samarai-Murua District Office,Location/PG0502,CRVS_OFFICE
+00F2CA0355,Nawae District Office,Location/PG1208,CRVS_OFFICE
+008F8BC1AB,Rai Coast District Office,Location/PG1304,CRVS_OFFICE
+0010E8401D,Manus District Office,Location/PG1601,CRVS_OFFICE
+006EAD4A6E,Namatanai District Office,Location/PG1702,CRVS_OFFICE
+00822450C6,Telefomin District Office,Location/PG1503,CRVS_OFFICE
+002F0A226B,Menyamya District Office,Location/PG1207,CRVS_OFFICE
+0091CF98A7,National Capital District Office,Location/PG0401,CRVS_OFFICE
+009E20318B,Rai Coast District Office,Location/PG1304,CRVS_OFFICE
+000B4B975F,Tambul/Nebilyer District Office,Location/PG0907,CRVS_OFFICE
+00E1FA6C01,Nipa/Kutubu District Office,Location/PG0707,CRVS_OFFICE
+005455F350,Kundiawa/Gembogl District Office,Location/PG1005,CRVS_OFFICE
+00A81AA1CB,Manus District Office,Location/PG1601,CRVS_OFFICE
+00A795FBBC,Namatanai District Office,Location/PG1702,CRVS_OFFICE
+001860DA49,North Fly District Office,Location/PG0102,CRVS_OFFICE
+00E889D6B0,Nipa/Kutubu District Office,Location/PG0707,CRVS_OFFICE
+002A84D5E8,North Bougainville District Office,Location/PG2001,CRVS_OFFICE
+00572158B6,Middle Fly District Office,Location/PG0101,CRVS_OFFICE
+007AC1721B,Karimui/Nomane District Office,Location/PG1003,CRVS_OFFICE
+00442A8EC2,North Waghi District Office,Location/PG2206,CRVS_OFFICE
+0037BCE378,Koroba/Kopiago District Office,Location/PG2105,CRVS_OFFICE
+00F4F07CD6,North Waghi District Office,Location/PG2206,CRVS_OFFICE
+00BFF0277F,Wosera Gawi District Office,Location/PG1405,CRVS_OFFICE
+001A8BB50B,Yangoru Saussia District Office,Location/PG1406,CRVS_OFFICE
+0020AD85B9,Telefomin District Office,Location/PG1503,CRVS_OFFICE
+0039AA7E2F,North Fly District Office,Location/PG0102,CRVS_OFFICE
+0063D5C945,Markham District Office,Location/PG1206,CRVS_OFFICE
+00982210C3,South Fly District Office,Location/PG0103,CRVS_OFFICE
+0040605AB5,Ijivitari District Office,Location/PG0601,CRVS_OFFICE
+00566521CD,Lagaip/Pogera District Office,Location/PG0803,CRVS_OFFICE
+00447CE485,Nuku District Office,Location/PG1502,CRVS_OFFICE
+00609B1BBF,Lagaip/Pogera District Office,Location/PG0803,CRVS_OFFICE
+00083B83ED,Manus District Office,Location/PG1601,CRVS_OFFICE
+00844ADB7A,Manus District Office,Location/PG1601,CRVS_OFFICE
+00A474C6E6,Ijivitari District Office,Location/PG0601,CRVS_OFFICE
+00C65EF1C0,Lagaip/Pogera District Office,Location/PG0803,CRVS_OFFICE
+0069B01385,Nipa/Kutubu District Office,Location/PG0707,CRVS_OFFICE
+005E77D5C3,Rabaul District Office,Location/PG1804,CRVS_OFFICE
+0001C64A03,Rai Coast District Office,Location/PG1304,CRVS_OFFICE
+005788DF18,Kokopo District Office,Location/PG1802,CRVS_OFFICE
+00AD32B5A4,Manus District Office,Location/PG1601,CRVS_OFFICE
+0095388A2E,Rigo District Office,Location/PG0304,CRVS_OFFICE
+007ACB1365,Rigo District Office,Location/PG0304,CRVS_OFFICE
+0044DE3BE6,Rigo District Office,Location/PG0304,CRVS_OFFICE
+0060BEC9D8,Ijivitari District Office,Location/PG0601,CRVS_OFFICE
+004E7B8CE0,Huon District Office,Location/PG1203,CRVS_OFFICE
+00285DF12E,Karimui/Nomane District Office,Location/PG1003,CRVS_OFFICE
+00E6A6357B,Yangoru Saussia District Office,Location/PG1406,CRVS_OFFICE
+0000B66E29,North Bougainville District Office,Location/PG2001,CRVS_OFFICE
+001B2705D2,Kabwum District Office,Location/PG1204,CRVS_OFFICE
+0063A131DF,Namatanai District Office,Location/PG1702,CRVS_OFFICE
+00F08B672B,Tawae/Siassi District Office,Location/PG1209,CRVS_OFFICE
+00B15DC228,Chuave District Office,Location/PG1001,CRVS_OFFICE
+00E953F216,Tawae/Siassi District Office,Location/PG1209,CRVS_OFFICE
+00FCF486CA,Middle Ramu District Office,Location/PG1303,CRVS_OFFICE
+00E90EAEE7,Pomio District Office,Location/PG1803,CRVS_OFFICE
+005FB184ED,South Bougainville District Office,Location/PG2003,CRVS_OFFICE
+008F4CF89E,Koroba/Kopiago District Office,Location/PG2105,CRVS_OFFICE
+00B0588732,Anglimp/South Waghi District Office,Location/PG2201,CRVS_OFFICE
+009B82DFD9,Wosera Gawi District Office,Location/PG1405,CRVS_OFFICE
+008FB8C835,North Fly District Office,Location/PG0102,CRVS_OFFICE
+0077E3B0FD,Sina Sina Yonggomugl District Office,Location/PG1006,CRVS_OFFICE
+004A5BFB5A,Alotau District Office,Location/PG0501,CRVS_OFFICE
+0073D5A969,Sumkar District Office,Location/PG1305,CRVS_OFFICE
+0042B22EE0,Sina Sina Yonggomugl District Office,Location/PG1006,CRVS_OFFICE
+00BD8CC5CA,Tari/Pori District Office,Location/PG2108,CRVS_OFFICE
+00247F9FB5,Talasea District Office,Location/PG1902,CRVS_OFFICE
+0002D9D5F1,Sohe District Office,Location/PG0602,CRVS_OFFICE
+002DFEEFDF,Namatanai District Office,Location/PG1702,CRVS_OFFICE
+0074EA2BAA,Goilala District Office,Location/PG0302,CRVS_OFFICE
+0065906DC2,Tari/Pori District Office,Location/PG2108,CRVS_OFFICE
+005F18238B,Tari/Pori District Office,Location/PG2108,CRVS_OFFICE
+007F099447,Telefomin District Office,Location/PG1503,CRVS_OFFICE
+00B6BD4DE6,Manus District Office,Location/PG1601,CRVS_OFFICE
+00994490C2,Kavieng District Office,Location/PG1701,CRVS_OFFICE
+00369E2CC0,North Bougainville District Office,Location/PG2001,CRVS_OFFICE
+00162D7487,South Bougainville District Office,Location/PG2003,CRVS_OFFICE
+00DA9BFF6D,Madang District Office,Location/PG1302,CRVS_OFFICE
+003629EF5E,Wapenamanda District Office,Location/PG0805,CRVS_OFFICE
+0061C9F2E9,Ijivitari District Office,Location/PG0601,CRVS_OFFICE
+00088F5EC4,Ambunti/Drekikier District Office,Location/PG1401,CRVS_OFFICE
+00CE58AC17,Wewak District Office,Location/PG1404,CRVS_OFFICE
+00E8B5744C,Markham District Office,Location/PG1206,CRVS_OFFICE
+007F82237A,Lufa District Office,Location/PG1105,CRVS_OFFICE
+00D4B9A6A7,Unggai/Benna District Office,Location/PG1108,CRVS_OFFICE
+00BEDACBA6,Daulo District Office,Location/PG1101,CRVS_OFFICE
+00546AD821,Unggai/Benna District Office,Location/PG1108,CRVS_OFFICE
+007608827F,Mendi/Munihu District Office,Location/PG0706,CRVS_OFFICE
+00D00FB229,Komo/Magarima District Office,Location/PG2104,CRVS_OFFICE
+00B5FD1788,Kerowagi District Office,Location/PG1004,CRVS_OFFICE
+00281DA716,Usino Bundi District Office,Location/PG1306,CRVS_OFFICE
+00AF234E1D,Vanimo/Green River District Office,Location/PG1504,CRVS_OFFICE
+00154D2921,Gazelle District Office,Location/PG1801,CRVS_OFFICE
+004FFB5CB0,Wabag District Office,Location/PG0804,CRVS_OFFICE
+002B340791,Wabag District Office,Location/PG0804,CRVS_OFFICE
+009C1A36F6,Kandep District Office,Location/PG0801,CRVS_OFFICE
+00AD33C6D5,Nawae District Office,Location/PG1208,CRVS_OFFICE
+000393A14F,Kundiawa/Gembogl District Office,Location/PG1005,CRVS_OFFICE
+00BBAF4EF0,Central Bougainville District Office,Location/PG2002,CRVS_OFFICE
+002D9EF14E,Vanimo/Green River District Office,Location/PG1504,CRVS_OFFICE
+00420DFBAF,Huon District Office,Location/PG1203,CRVS_OFFICE
+00BE8D70B1,Markham District Office,Location/PG1206,CRVS_OFFICE
+009C587367,Wapenamanda District Office,Location/PG0805,CRVS_OFFICE
+0049672D7A,Kompiam District Office,Location/PG0802,CRVS_OFFICE
+00B2DB93F2,Menyamya District Office,Location/PG1207,CRVS_OFFICE
+00C36B0CCF,Bulolo District Office,Location/PG1201,CRVS_OFFICE
+00CA530998,Tawae/Siassi District Office,Location/PG1209,CRVS_OFFICE
+00CF573DFE,Daulo District Office,Location/PG1101,CRVS_OFFICE
+00A5608EBB,Rabaul District Office,Location/PG1804,CRVS_OFFICE
+00FD6509A4,Bulolo District Office,Location/PG1201,CRVS_OFFICE
+00845BC820,Bulolo District Office,Location/PG1201,CRVS_OFFICE
+00E07519F6,Bulolo District Office,Location/PG1201,CRVS_OFFICE
+003AEBB6FB,Alotau District Office,Location/PG0501,CRVS_OFFICE
+003A13CECA,Aitape/Lumi District Office,Location/PG1501,CRVS_OFFICE
+003727495B,Esa'ala District Office,Location/PG0504,CRVS_OFFICE
+0086987149,Kikori District Office,Location/PG0202,CRVS_OFFICE
+00A1B64508,Okapa District Office,Location/PG1107,CRVS_OFFICE
+00063AC2DC,Pomio District Office,Location/PG1803,CRVS_OFFICE
+00F0E9CD6D,Aitape/Lumi District Office,Location/PG1501,CRVS_OFFICE
+00DE712075,Yangoru Saussia District Office,Location/PG1406,CRVS_OFFICE
+003CD9F495,Wewak District Office,Location/PG1404,CRVS_OFFICE
+009B8D3BB8,Wewak District Office,Location/PG1404,CRVS_OFFICE
+00FA7A1522,Wewak District Office,Location/PG1404,CRVS_OFFICE
+000DC118E3,Ialibu/Pangia District Office,Location/PG0701,CRVS_OFFICE
+00260592BB,Goilala District Office,Location/PG0302,CRVS_OFFICE
+00DD906BE6,Finschafen District Office,Location/PG1202,CRVS_OFFICE
+00893B37B5,Lufa District Office,Location/PG1105,CRVS_OFFICE
+00606EE935,Samarai-Murua District Office,Location/PG0502,CRVS_OFFICE
+00C2ECA56F,Maprik District Office,Location/PG1403,CRVS_OFFICE
+009517D655,Nuku District Office,Location/PG1502,CRVS_OFFICE
+009DC2D632,Telefomin District Office,Location/PG1503,CRVS_OFFICE
+007129B555,Bogia District Office,Location/PG1301,CRVS_OFFICE
+0017F4B472,Obura/Wonenara District Office,Location/PG1106,CRVS_OFFICE
+001A5B8EA2,Sina Sina Yonggomugl District Office,Location/PG1006,CRVS_OFFICE
+0021C82671,Angoram District Office,Location/PG1402,CRVS_OFFICE
+000DEF5665,Kabwum District Office,Location/PG1204,CRVS_OFFICE
