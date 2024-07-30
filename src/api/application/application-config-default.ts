@@ -1,7 +1,7 @@
 import { countryLogo } from '@countryconfig/api/application/country-logo'
 
 export const defaultApplicationConfig = {
-  APPLICATION_NAME: 'Farajaland CRS',
+  APPLICATION_NAME: 'Papua New Guinea CRVS',
   BIRTH: {
     REGISTRATION_TARGET: 30,
     LATE_REGISTRATION_TARGET: 365,
@@ -15,7 +15,7 @@ export const defaultApplicationConfig = {
   COUNTRY_LOGO: countryLogo,
   CURRENCY: {
     languagesAndCountry: ['en-US'],
-    isoCode: 'USD'
+    isoCode: 'PGK'
   },
   DEATH: {
     REGISTRATION_TARGET: 45,
